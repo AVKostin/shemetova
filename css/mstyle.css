@@ -1,0 +1,173 @@
+@charset "UTF-8";
+:root {
+ --price-mob-cell:16%;
+
+}
+
+.carousel button {
+    margin-top: 17%;
+}
+
+.k_personal .row div {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .k_img_for_smal img {
+        width: 0;
+    }
+
+    .k_img_for_big img{
+        width: 70%;
+    }
+
+    .k_personal .k_img_for_big img {
+        width: 90%;
+    }
+
+    .carousel-item .row div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lrj img {
+        width: 150%;
+    }
+
+}
+
+.why-we_section {
+    background-color: #ffc7c742;
+    height: 390px;
+
+}
+
+.why-we_list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 356px;
+}
+
+.why-we_item {
+font-size: 22px;
+font-weight: 500;
+color: grey;
+}
+
+.why-we_title {
+    display: flex;
+    font-size: 32px;
+    font-weight:700;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .price-table {
+    outline: 1px solid #ff000030;
+} */
+
+.writing-online {
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.writing-online-btn {
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+ .writing-online {
+font-size: 40px;
+ }
+
+ .price-mobile {
+
+    display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+  justify-content: space-around;
+    /* border: 1px solid rgba(167, 32, 77, 0.474); */
+}
+:root {
+    --price-mob-cell:100%;
+   }
+
+   .e-con>.e-con-inner{
+    /* border: 1px solid #efa8a8; */
+    flex-direction: column;
+   }
+   .str_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .table-price {
+    flex-direction: column;
+  }
+  /* .elementor-369 .elementor-element.elementor-element-4df5ec4 {
+   --flex-direction: row;
+    } */
+}
+
+@media (max-width: 480px) {
+    .why-we_title {
+        font-size: 24px;
+    }
+      .writing-online {
+    font-size: 33px;
+}
+    .bdt-fancy-list-text{
+font-size: 10px;
+    }
+    .bdt-fancy-list-text {
+        font-size: 22px;
+    }
+
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+      margin-bottom: 143px;
+    }
+}
+
+
+.container {
+    margin: 0 auto;
+  }
+
+@media screen and (min-width: 480px) {
+     .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 768px){
+    .elementor-369 .elementor-element.elementor-element-4df5ec4 {
+        --flex-direction: row;
+  }
+}
+
+.table-price-cell {
+    background-color: aqua;
+}
