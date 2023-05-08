@@ -1,7 +1,13 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=5.0">
-  <title>Салон Краси "Шеметова Студио" на Троєщині | Shemetova Studio — Студія Краси | Троєщина</title>
+  <title>Салон Краси "Шеметова Студио" на Троєщині | Shemetova Studio Troeschina</title>
+  <meta name="description" content="Мы студія краси “Shemetova studio”. З 2016 року даруємо красу чарівним жінкам нашого міста. У нас працюють найкращі майстри  манікюру, педикюру, бровісти, майстер по нарощуванню вій а також косметолог. Ми використовуємо лише якісні матеріали, стерилізовані інструменти, одноразові розхідники та косметику преміум якості.
+">
+<meta name="keywords" content="манікюр, педикюр, бровіст, нарощення вій, косметолог">
+<meta name="author" content="Alex Kos - DevStudio">
+<meta name="publisher" content="Alex Kos - DevStudio">
+<meta name ="revised" content ="ShemetovaStudio by AlexKos, 08/05/2023" >
 <meta name="robots" content="max-image-preview:large">
 <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link rel="stylesheet" id="bdt-uikit-css" href="css/bdt-uikit.css" media="all">
