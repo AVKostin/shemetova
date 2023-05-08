@@ -8,8 +8,8 @@
       <div class="elementor-element elementor-element-a86c736 e-con-full e-con " data-id="a86c736" data-element_type="container" data-settings="{" content_width":"full"}">
         <div class="elementor-element elementor-element-739b16c elementor-align-left elementor-tablet-align-center bdt-content-position--left elementor-widget elementor-widget-bdt-fancy-list" data-id="739b16c" data-element_type="widget" data-widget_type="bdt-fancy-list.default">
         <h4 class="bdt-fancy-list-title">
-          <?php echo "$title $description" ?></h4>
-          <p class="bdt-fancy-list-text"></p>
+          <?php echo "$title";?><span class="title-descr bdt-fancy-list-text "><?php echo " $description"; ?></span></h4>
+
         </div>
       </div>
 
@@ -21,10 +21,12 @@
             <div class="bdt-fancy-list bdt-list bdt-fancy-list-group">
                 <div class="bdt-fancy-list-wrap">
                     <div class="bdt-flex flex-wrap">
+                    <div class="bdt-fancy-list-content">
                     <h4 class="bdt-fancy-list-title">
                           <?php echo $cat['master'] ?> </h4>
                         <p class="bdt-fancy-list-text">
                           Майстер</p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -35,8 +37,6 @@
         <div class="elementor-element elementor-element-085298f elementor-align-center bdt-content-position--left elementor-widget elementor-widget-bdt-fancy-list" data-id="085298f" data-element_type="widget" data-widget_type="bdt-fancy-list.default">
           <div class="elementor-widget-container">
             <div class="bdt-fancy-list">
-              <ul class="bdt-list bdt-fancy-list-group">
-                <li>
                   <div class="bdt-fancy-list-wrap">
                     <div class="bdt-flex flex-wrap">
                       <div class="bdt-fancy-list-content">
@@ -48,8 +48,6 @@
                       </div>
                     </div>
                   </div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -58,8 +56,6 @@
         <div class="elementor-element elementor-element-085298f elementor-align-center bdt-content-position--left elementor-widget elementor-widget-bdt-fancy-list" data-id="085298f" data-element_type="widget" data-widget_type="bdt-fancy-list.default">
           <div class="elementor-widget-container">
             <div class="bdt-fancy-list">
-              <ul class="bdt-list bdt-fancy-list-group">
-                <li>
                   <div class="bdt-fancy-list-wrap">
                     <div class="bdt-flex flex-wrap">
                       <div class="bdt-fancy-list-content">
@@ -70,8 +66,6 @@
                       </div>
                     </div>
                   </div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
