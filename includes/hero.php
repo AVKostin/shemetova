@@ -10,9 +10,10 @@
         class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c7226c5"
         data-id="c7226c5" data-element_type="column">
         <div class="elementor-widget-wrap elementor-element-populated">
+
           <section
             class="elementor-section elementor-inner-section elementor-element elementor-element-fb300bc elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="fb300bc" data-element_type="section">
+            data-id="fb300bc" data-element_type="section" title="Our contacts & phones">
             <div class="elementor-container elementor-column-gap-default">
               <div
                 class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3efe4d5"
@@ -72,11 +73,9 @@
                             </div>
 
                             <div class="bdt-ep-button-text">
-
                               <span class="avdbtn-text">Ми в Інстаграм</span>
 
                             </div>
-
 
                           </div>
                         </a>
@@ -195,9 +194,7 @@
 
                                           <span class="avdbtn-text">063
                                             857 8522</span>
-
                                         </div>
-
 
                                       </div>
                                     </a>
@@ -241,14 +238,10 @@
                                             </svg>
                                           </div>
                                         </div>
-
                                         <div class="bdt-ep-button-text">
-
                                           <span class="avdbtn-text">095
                                             333 4382</span>
-
                                         </div>
-
 
                                       </div>
                                     </a>
@@ -278,12 +271,10 @@
                                         </div>
 
                                         <div class="bdt-ep-button-text">
-
                                           <span class="avdbtn-text">097
                                             940 4944</span>
 
                                         </div>
-
 
                                       </div>
                                     </a>
@@ -335,6 +326,8 @@
               </div>
             </div>
           </section>
+
+
           <div class="elementor-element elementor-element-b6f848d elementor-widget elementor-widget-heading"
             data-id="b6f848d" data-element_type="widget" data-widget_type="heading.default">
             <div class="elementor-widget-container">
@@ -381,7 +374,7 @@
 
           <section
             class="elementor-section elementor-inner-section elementor-element elementor-element-25c1354 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="25c1354" data-element_type="section">
+            data-id="25c1354" data-element_type="section" title="Our works">
             <div class="elementor-container elementor-column-gap-default">
               <div style="width: 100%; display: flex; justify-content: center;" data-id="95e4e06"
                 data-element_type="column">
@@ -393,63 +386,55 @@
                       <link rel="stylesheet" href="css/widget-icon-list.min.css">
                       <ul class="elementor-icon-list-items">
                         <li class="elementor-icon-list-item">
-                          <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                            class="material-symbols-outlined">
+                          <span class="header_works_symb material-symbols-outlined">
                             done
                           </span>
-                          <span style="color: #591A2F; font-size: 24px;"
-                            class="elementor-icon-list-text">Манікюр</span>
+                          <span class="header_works_text elementor-icon-list-text">Манікюр</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                            class="material-symbols-outlined">
+                          <span class="header_works_symb material-symbols-outlined">
                             done
                           </span>
-                          <span style="color: #591A2F; font-size: 24px;" class="elementor-icon-list-text">Манікюр
+                          <span class="header_works_text   elementor-icon-list-text">Манікюр
                             Комплекс</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                            class="material-symbols-outlined">
+                          <span class="header_works_symb material-symbols-outlined">
                             done
                           </span>
-                          <span style="color: #591A2F; font-size: 24px;" class="elementor-icon-list-text">Покриття
+                          <span class="header_works_text   elementor-icon-list-text">Покриття
                             нігтів</span>
                         </li>
                         <li class="elementor-icon-list-item">
                           <span class="elementor-icon-list-icon">
-                            <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                              class="material-symbols-outlined">
+                            <span class="header_works_symb material-symbols-outlined">
                               done
                             </span>
-                            <span style="color: #591A2F; font-size: 24px;" class="elementor-icon-list-text">Дизайн
+                            <span class="header_works_text   elementor-icon-list-text">Дизайн
                               нігтів</span>
                         </li>
                         <li class="elementor-icon-list-item">
                           <span class="elementor-icon-list-icon">
-                            <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                              class="material-symbols-outlined">
+                            <span class="header_works_symb material-symbols-outlined">
                               done
                             </span>
-                            <span style="color: #591A2F; font-size: 24px;"
-                              class="elementor-icon-list-text">Нарощування
+                            <span class="header_works_text
+                               elementor-icon-list-text">Нарощення
                               нігтів</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                            class="material-symbols-outlined">
+                          <span class="header_works_symb material-symbols-outlined">
                             done
                           </span>
-                          <span style="color: #591A2F; font-size: 24px;" class="elementor-icon-list-text">Педикюр
+                          <span class="header_works_text   elementor-icon-list-text">Педикюр
                             Комплекс</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span style="color: #591A2F; font-weight: 900; font-size: 36px;"
-                            class="material-symbols-outlined">
+                          <span class="header_works_symb material-symbols-outlined">
                             done
                           </span>
-                          <span style="color: #591A2F; font-size: 24px;"
-                            class="elementor-icon-list-text">Педикюр</span>
+                          <span class="header_works_text
+                             elementor-icon-list-text">Педикюр</span>
                         </li>
                       </ul>
                     </div>
@@ -461,13 +446,12 @@
 
 
           <div class="elementor-element elementor-element-2d2aa57 elementor-widget elementor-widget-bdt-helpdesk"
-            data-id="2d2aa57" data-element_type="widget" data-settings="{"
-            ep_sound_effects_active":"yes","ep_sound_effects_event":"hover","ep_sound_effects_select_type":"widget","ep_sound_effects_source":"bubble","ep_sound_effects_source_local_link":"http:\
-            \ shemetova.studio\ wp-content\ plugins\ bdthemes-element-pack\ assets\ sounds\ "}"
+            data-id="2d2aa57" data-element_type="widget"
             data-widget_type="bdt-helpdesk.default">
             <div class="elementor-widget-container">
 
               <div class="bdt-helpdesk">
+
                 <nav class="bdt-helpdesk-icons">
                   <input type="checkbox" class="bdt-helpdesk-icons-open" name="bdt-helpdesk-icons-open"
                     id="bdt-helpdesk-icons-2d2aa57">
