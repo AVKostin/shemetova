@@ -39,8 +39,24 @@
 
 .why-we_section {
     background-color: #ffc7c742;
-    height: 390px;
+    /* height: 390px; */
+    padding-bottom: 30px;
+}
 
+.about_us_section {
+    background-color: #ffc7c742;
+    padding-bottom: 30px;
+
+}
+
+.about_us_text {
+    margin: 0 auto;
+    /* width: 622px; */
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: grey;
+    padding: 17px 47px;
 }
 
 .why-we_list {
@@ -50,6 +66,8 @@
     flex-direction: column;
     max-width: 356px;
 }
+
+
 
 .why-we_item {
 font-size: 22px;
@@ -65,9 +83,7 @@ color: grey;
     align-items: center;
     justify-content: space-around;
 }
-/* .price-table {
-    outline: 1px solid #ff000030;
-} */
+
 
 .writing-online {
     font-size: 39px;
