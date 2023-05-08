@@ -18,9 +18,9 @@
     <?php include "includes/review.php"; ?>
     <?php include "includes/our_advantages.php"; ?>
     <?php include "includes/location.php"; ?>
-    <?php include "includes/footer.php"; ?>
     <?php include "includes/scripts_link_old.php"; ?>
     <!-- </div> -->
+    <?php include "includes/footer.php"; ?>
   </div>
 </body>
 </html>
