@@ -10,6 +10,7 @@
   <div data-elementor-type="wp-page" data-elementor-id="12" class="elementor elementor-12">
     <!-- <div class="container"> -->
     <?php include "includes/hero.php"; ?>
+    <?php include "includes/about_us.php"; ?>
     <?php include "includes/price.php"; ?>
     <?php include "includes/price_accord.php"; ?>
     <?php include "includes/portfolio.php"; ?>
