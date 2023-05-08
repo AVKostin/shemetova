@@ -7,7 +7,7 @@
     <div class="e-con-inner ">
       <div class="elementor-element elementor-element-a86c736 e-con-full e-con " data-id="a86c736" data-element_type="container" data-settings="{" content_width":"full"}">
         <div class="elementor-element elementor-element-739b16c elementor-align-left elementor-tablet-align-center bdt-content-position--left elementor-widget elementor-widget-bdt-fancy-list" data-id="739b16c" data-element_type="widget" data-widget_type="bdt-fancy-list.default">
-        <h4 class="bdt-fancy-list-title">
+        <h4 class="title-price bdt-fancy-list-title">
           <?php echo "$title";?><span class="title-descr bdt-fancy-list-text "><?php echo " $description"; ?></span></h4>
 
         </div>
