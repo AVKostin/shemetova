@@ -48,6 +48,28 @@
  display: flex;
 }
 
+.copyright {
+text-align: center;
+padding-bottom: 10px;
+}
+
+.copyright_text:hover,
+.copyright_text:focus {
+  color: white;
+  }
+
+  .header_works_symb {
+    color: var(--e-global-color-9f6361a);
+    font-weight: 900;
+    font-size: 36px;
+  }
+
+  .header_works_text {
+    display: block;
+    color: var(--e-global-color-9f6361a)!important;
+    font-size: 24px;
+  }
+
 @media screen and (max-width: 768px) {
   .table {
     width: 382px;
@@ -76,9 +98,9 @@
 }
 
 .title-descr {
-  /* font-size: 16px;
+  font-size: 26px!important;
   font-weight: 400;
-  line-height: 30px; */
+  line-height: 30px;
 }
 
 .values-price {
