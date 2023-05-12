@@ -1,8 +1,8 @@
 
-<div class="container">
+<div class="container_main">
   <section
     class="elementor-section elementor-top-section elementor-element elementor-element-7639375 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-    data-id="7639375" data-element_type="section">
+    data-id="7639375" data-element_type="section" title="Our price">
     <div class="elementor-container elementor-column-gap-default">
       <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8fb16de"
         data-id="8fb16de" data-element_type="column">
@@ -26,7 +26,6 @@
                 </div>
               </div>
             </div>
-            <!-- меню прайса -->
             <!--  Прайс основной -->
             <?php include "includes/price_main.php"; ?>
             <!-- Аккордеон -->
