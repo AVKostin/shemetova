@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container_main"> -->
   <div class="bdt-tab-wrapper">
   <div>
     <div class="bdt-flex bdt-flex-center bdt-tab bdt-tab-default " data-bdt-tab="connect: #bdt-tab-content-2bbe2fb;"
@@ -57,4 +57,4 @@
     </div>
   </div>
 </div>
-</div>
+<!-- </div> -->
