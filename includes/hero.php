@@ -1,10 +1,9 @@
-<div class="container">
+<div class="container_main">
   <section
     class="elementor-section elementor-top-section elementor-element elementor-element-40c83ff elementor-section-height-min-height elementor-section-items-top elementor-section-boxed elementor-section-height-default lazyloaded"
-    data-id="40c83ff" data-element_type="section" data-settings="{" background_background":"classic"}"
-    data-e-bg-lazyload>
+    data-id="40c83ff" data-element_type="section"
+    data-e-bg-lazyload title="Main header with social links & phones">
 
-    <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-default">
       <div
         class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c7226c5"
@@ -41,8 +40,9 @@
                         vertical-align: middle;
                         display: inline-block
                       }
-                      </style> <a href="index.html">
-                        <img decoding="async" src="images/logo150.webp" title="logo150" alt="logo150" loading="lazy">
+                      </style>
+                       <a href="index.html">
+                        <img src="images/logo150.webp" title="logo150" alt="logo150" width="150" height="150">
                       </a>
                     </div>
                   </div>
@@ -56,30 +56,9 @@
                     class="elementor-element elementor-element-ed45041 elementor-align-center elementor-widget elementor-widget-bdt-advanced-button"
                     data-id="ed45041" data-element_type="widget" data-widget_type="bdt-advanced-button.default">
                     <div class="elementor-widget-container">
-                      <div class="bdt-ep-button-wrapper">
-                        <a href="https://www.instagram.com/shemetova_studio/" target="_blank"
-                          class="bdt-ep-button bdt-ep-button-effect-e bdt-ep-button-size-xs elementor-animation-pulse-grow">
-                          <div class="bdt-ep-button-content-wrapper bdt-flex bdt-flex-middle bdt-flex-center  "
-                            data-text="Ми в Інстаграм">
-                            <div class="bdt-ep-button-icon bdt-flex-center bdt-flex-align-left">
-                              <div class="bdt-ep-button-icon-inner">
 
-                                <svg aria-hidden="true" class="fa-fw e-font-icon-svg e-fab-instagram"
-                                  viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
-                                  <path
-                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                                </svg>
-                              </div>
-                            </div>
+                    <?php include_once "includes/parts/btn_inst.php" ?>
 
-                            <div class="bdt-ep-button-text">
-                              <span class="avdbtn-text">Ми в Інстаграм</span>
-
-                            </div>
-
-                          </div>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -93,10 +72,10 @@
                     data-id="e289349" data-element_type="widget" data-widget_type="template.default">
                     <div class="elementor-widget-container">
                       <div class="elementor-template">
+                        <div class="social_phones_section_">
                         <div data-elementor-type="section" data-elementor-id="100" class="elementor elementor-100">
                           <div class="elementor-element elementor-element-f6aba64 e-con-boxed e-con"
-                            data-id="f6aba64" data-element_type="container" data-settings="{"
-                            content_width":"boxed"}">
+                            data-id="f6aba64" data-element_type="container">
                             <div class="e-con-inner">
                               <div
                                 class="elementor-element elementor-element-15a6599 elementor-align-center elementor-widget elementor-widget-bdt-advanced-button"
@@ -198,12 +177,18 @@
 
                                       </div>
                                     </a>
+                                    <div class="social_links-pack">
+                                        <?php include "includes/parts/social.php" ?>
+                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
+
+
                         </div>
+                      </div>
                       </div>
                     </div>
                   </div>
@@ -331,40 +316,7 @@
           <div class="elementor-element elementor-element-b6f848d elementor-widget elementor-widget-heading"
             data-id="b6f848d" data-element_type="widget" data-widget_type="heading.default">
             <div class="elementor-widget-container">
-              <style>
-              /*! elementor - v3.11.5 - 14-03-2023 */
-              .elementor-heading-title {
-                padding: 0;
-                margin: 0;
-                line-height: 1
-              }
 
-              .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                color: inherit;
-                font-size: inherit;
-                line-height: inherit
-              }
-
-              .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                font-size: 15px
-              }
-
-              .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                font-size: 19px
-              }
-
-              .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                font-size: 29px
-              }
-
-              .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                font-size: 39px
-              }
-
-              .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                font-size: 59px
-              }
-              </style>
               <h1 style="color: #591A2F;" class="elementor-heading-title elementor-size-default">
                 Shemetova Studio на Троєщині
               </h1>
@@ -386,53 +338,86 @@
                       <link rel="stylesheet" href="css/widget-icon-list.min.css">
                       <ul class="elementor-icon-list-items">
                         <li class="elementor-icon-list-item">
-                          <span class="header_works_symb material-symbols-outlined">
+                          <!-- <span class="header_works_symb material-symbols-outlined">
                             done
-                          </span>
+                          </span> -->
+                          <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                           <span class="header_works_text elementor-icon-list-text">Манікюр</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span class="header_works_symb material-symbols-outlined">
+                          <!-- <span class="header_works_symb material-symbols-outlined">
                             done
+                          </span> -->
+
+                          <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                          <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+                          </svg>
                           </span>
+
                           <span class="header_works_text   elementor-icon-list-text">Манікюр
                             Комплекс</span>
                         </li>
+
+
                         <li class="elementor-icon-list-item">
-                          <span class="header_works_symb material-symbols-outlined">
+                          <!-- <span class="header_works_symb material-symbols-outlined">
                             done
-                          </span>
+                          </span> -->
+                          <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                           <span class="header_works_text   elementor-icon-list-text">Покриття
                             нігтів</span>
                         </li>
+
                         <li class="elementor-icon-list-item">
-                          <span class="elementor-icon-list-icon">
-                            <span class="header_works_symb material-symbols-outlined">
+                         <!-- <span class="elementor-icon-list-icon">
+                             <span class="header_works_symb material-symbols-outlined">
                               done
-                            </span>
+                            </span> -->
+                            <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                             <span class="header_works_text   elementor-icon-list-text">Дизайн
                               нігтів</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span class="elementor-icon-list-icon">
-                            <span class="header_works_symb material-symbols-outlined">
+                         <!-- <span class="elementor-icon-list-icon">
+                             <span class="header_works_symb material-symbols-outlined">
                               done
-                            </span>
+                            </span> -->
+                            <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                             <span class="header_works_text
                                elementor-icon-list-text">Нарощення
                               нігтів</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span class="header_works_symb material-symbols-outlined">
+                          <!-- <span class="header_works_symb material-symbols-outlined">
                             done
-                          </span>
+                          </span> -->
+                          <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                           <span class="header_works_text   elementor-icon-list-text">Педикюр
                             Комплекс</span>
                         </li>
                         <li class="elementor-icon-list-item">
-                          <span class="header_works_symb material-symbols-outlined">
+                          <!-- <span class="header_works_symb material-symbols-outlined">
                             done
-                          </span>
+                          </span> -->
+                          <span class="check_icon"><svg class="social-insta" width="25" height="25">
+                  <use href="./images/sprite.svg#icon-check-mark-icon"></use>
+              </svg>
+            </span>
                           <span class="header_works_text
                              elementor-icon-list-text">Педикюр</span>
                         </li>
@@ -468,7 +453,7 @@
 
                   <a class="bdt-helpdesk-icons-item bdt-hdi-viber bdt-tippy-tooltip"
                     href="https://www.viber.com/+380953334382" data-tippy-content="Спілкуйтеся в вайбері" data-tippy
-                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false">
+                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false" alt="Спілкуйтеся в вайбері">
                     <i class="ep-icon-viber" aria-hidden="true"></i>
                   </a>
 
@@ -476,7 +461,7 @@
 
                   <a class="bdt-helpdesk-icons-item bdt-hdi-whatsapp bdt-tippy-tooltip"
                     href="https://wa.me/+380953334382 " data-tippy-content="Телефонуйте через WhatsApp" data-tippy
-                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false">
+                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false" alt="Телефонуйте через WhatsApp">
                     <i class="ep-icon-whatsapp" aria-hidden="true"></i>
                   </a>
 
@@ -485,7 +470,7 @@
 
                   <a class="bdt-helpdesk-icons-item bdt-hdi-telegram bdt-tippy-tooltip"
                     href="https://telegram.me/+380953334382" data-tippy-content="Чат в телеграмі" data-tippy
-                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false">
+                    data-tippy-placement="left" data-tippy-animation="shift-away" data-tippy-arrow="false" alt="Чат в телеграмі">
                     <i class="ep-icon-telegram" aria-hidden="true"></i>
                   </a>
 
