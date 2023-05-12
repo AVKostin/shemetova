@@ -1,4 +1,3 @@
-
       <?php
       $result = mysqli_query($connection, "SELECT * FROM `manicure_add`");
       ?>
