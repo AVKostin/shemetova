@@ -1,11 +1,12 @@
- <div class="container">
+ <div class="container_main">
+  <section title="Photo of our workers">
    <div class="elementor-element elementor-element-d17795f e-con-boxed e-con" data-id="d17795f"
      data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
      <div class="e-con-inner">
        <div class="elementor-element elementor-element-8a7bdbd elementor-widget elementor-widget-bdt-advanced-heading"
          data-id="8a7bdbd" data-element_type="widget" data-widget_type="bdt-advanced-heading.default">
          <div class="elementor-widget-container">
-           <div id="8a7bdbd" class="bdt-ep-advanced-heading"
+           <div  class="bdt-ep-advanced-heading"
              data-settings="{&quot;titleMultiColor&quot;:&quot;no&quot;}">
              <div class="bdt-ep-advanced-heading-content bdt-visible@m">
                <div class="bdt-transform-origin-top-left">Shemetova Studio</div>
@@ -118,4 +119,5 @@
        </div>
      </div>
    </div>
+  </section>
  </div>
