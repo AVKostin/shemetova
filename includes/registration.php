@@ -1,5 +1,5 @@
- <div class="container">
-   <section class="row" style="background: #591A2F; padding: 5% 7%; color: white; width: 100%; ">
+ <div class="container_main">
+   <section class="row" style="background: #591A2F; padding: 5% 7%; color: white; width: 100%; " title="Registration section">
      <div class="col-md-7 col-s-12">
        <h2 class="writing-online">Бажаєте записатись до наших майстрів ?</h2>
      </div>
