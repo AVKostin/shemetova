@@ -39,7 +39,6 @@
 
 .why-we_section {
     background-color: #ffc7c742;
-    /* height: 390px; */
     padding-bottom: 30px;
 }
 
@@ -50,13 +49,23 @@
 }
 
 .about_us_text {
+    max-width: 1015px;
     margin: 0 auto;
-    /* width: 622px; */
     font-size: 22px;
     font-weight: 500;
     text-align: center;
-    color: grey;
-    padding: 17px 47px;
+    color: #542e2e;
+    padding: 0 80px 17px 80px;
+}
+
+.about_us_title {
+
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #ad0000;
+
 }
 
 .why-we_list {
@@ -72,7 +81,7 @@
 .why-we_item {
 font-size: 22px;
 font-weight: 500;
-color: grey;
+color: var(--e-global-color-9f6361a);
 }
 
 .why-we_title {
@@ -110,16 +119,13 @@ font-size: 40px;
 
     display: flex;
   flex-direction: row;
-  /* width: 50%; */
   justify-content: space-around;
-    /* border: 1px solid rgba(167, 32, 77, 0.474); */
 }
 :root {
     --price-mob-cell:100%;
    }
 
    .e-con>.e-con-inner{
-    /* border: 1px solid #efa8a8; */
     flex-direction: column;
    }
    .str_1 {
@@ -127,53 +133,60 @@ font-size: 40px;
     display: flex;
     justify-content: space-around;
   }
-
   .table-price {
     flex-direction: column;
   }
-  /* .elementor-369 .elementor-element.elementor-element-4df5ec4 {
-   --flex-direction: row;
-    } */
+  .about_us_text, .about_us_title {
+
+    padding: 0 75px 17px 75px;
+  }
+
 }
 
 @media (max-width: 480px) {
     .why-we_title {
         font-size: 24px;
     }
-      .writing-online {
-    font-size: 33px;
-}
+    .writing-online {
+        font-size: 33px;
+    }
     .bdt-fancy-list-text{
-font-size: 10px;
+        font-size: 10px;
     }
     .bdt-fancy-list-text {
         font-size: 22px;
     }
-
     .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-      margin-bottom: 143px;
+        margin-bottom: 143px;
+    }
+    .about_us_text, .about_us_title{
+        padding: 0 60px 17px 60px;
     }
 }
 
+.header_main {
+    margin-bottom: 50px;
+}
 
-.container {
+.container_main {
     margin: 0 auto;
+    background-color:#fae1cb0f;
   }
 
 @media screen and (min-width: 480px) {
-     .container {
+     .container_main {
     width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
+    .container_main {
     width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
+    .container_main {
     width: 1200px;
   }
 }
@@ -183,7 +196,8 @@ font-size: 10px;
         --flex-direction: row;
   }
 }
+/* .footer_text {
+    color:white;
+} */
 
-.table-price-cell {
-    background-color: aqua;
-}
+
