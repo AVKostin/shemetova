@@ -1,4 +1,3 @@
-<div class="container">
 <script>
 var pseudo_links = document.querySelectorAll(".pseudo-clearfy-link");
 for (var i = 0; i < pseudo_links.length; i++) {
@@ -38,33 +37,33 @@ events.forEach((event) => {
   document.addEventListener(event, lazyloadRunObserver);
 });
 </script>
-<link rel="stylesheet" id="context-menu-css" href="css/ep-context-menu.css" media="all">
-<link rel="stylesheet" id="ep-advanced-button-css" href="css/ep-advanced-button.css" media="all">
+<!-- <link rel="stylesheet" id="context-menu-css" href="css/ep-context-menu.css" media="all"> -->
+
 <link rel="stylesheet" id="elementor-post-100-css" href="css/post-100.css" media="all">
 <link rel="stylesheet" id="elementor-post-233-css" href="css/post-233.css" media="all">
 <link rel="stylesheet" id="ep-font-css" href="css/ep-font.css" media="all">
 <link rel="stylesheet" id="ep-helpdesk-css" href="css/ep-helpdesk.css" media="all">
-<link rel="stylesheet" id="tippy-css" href="css/tippy.css" media="all">
+<!-- <link rel="stylesheet" id="tippy-css" href="css/tippy.css" media="all"> -->
 <link rel="stylesheet" id="ep-advanced-heading-css" href="css/ep-advanced-heading.css" media="all">
 <link rel="stylesheet" id="elementor-post-369-css" href="css/post-369.css" media="all">
 <link rel="stylesheet" id="ep-fancy-list-css" href="css/ep-fancy-list.css" media="all">
 <link rel="stylesheet" id="elementor-post-261-css" href="css/post-261.css" media="all">
-<link rel="stylesheet" id="elementor-post-264-css" href="css/post-264.css" media="all">
-<link rel="stylesheet" id="elementor-post-263-css" href="css/post-263.css" media="all">
-<link rel="stylesheet" id="elementor-post-262-css" href="css/post-262.css" media="all">
+<!-- <link rel="stylesheet" id="elementor-post-264-css" href="css/post-264.css" media="all"> -->
+<!-- <link rel="stylesheet" id="elementor-post-263-css" href="css/post-263.css" media="all"> -->
+<!-- <link rel="stylesheet" id="elementor-post-262-css" href="css/post-262.css" media="all"> -->
 <link rel="stylesheet" id="ep-tabs-css" href="css/ep-tabs.css" media="all">
 <link rel="stylesheet" id="ep-accordion-css" href="css/ep-accordion.css" media="all">
 <link rel="stylesheet" id="ep-advanced-image-gallery-css" href="css/ep-advanced-image-gallery.css" media="all">
 <link rel="stylesheet" id="elementor-post-304-css" href="css/post-304.css" media="all">
-<link rel="stylesheet" id="ep-custom-carousel-css" href="css/ep-custom-carousel.css" media="all">
-<link rel="stylesheet" id="ep-marker-css" href="css/ep-marker.css" media="all">
+<!-- <link rel="stylesheet" id="ep-custom-carousel-css" href="css/ep-custom-carousel.css" media="all"> -->
+<!-- <link rel="stylesheet" id="ep-marker-css" href="css/ep-marker.css" media="all"> -->
 <link rel="stylesheet" id="e-animations-css" href="css/animations.min.css" media="all">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+<script async  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
 </script>
-<script src="js/fep-frontend.js" id="fep-frontend-js"></script>
-<script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
-<script id="bdt-uikit-js-extra">
+<!-- <script async  src="js/fep-frontend.js" id="fep-frontend-js"></script> -->
+<!-- <script async  src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script> -->
+<!-- <script id="bdt-uikit-js-extra">
 var element_pack_ajax_login_config = {
   "ajaxurl": "https:\/\/shemetova.studio\/wp-admin\/admin-ajax.php",
   "language": "ru",
@@ -105,13 +104,13 @@ var ElementPackConfig = {
     "widgets": []
   }
 };
-</script>
-<script src="js/bdt-uikit.min.js" id="bdt-uikit-js"></script>
-<script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
-<script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
-<script src="js/waypoints.min.js" id="elementor-waypoints-js"></script>
-<script src="js/core.min.js" id="jquery-ui-core-js"></script>
-<script id="elementor-frontend-js-before">
+</script> -->
+<script async  src="js/bdt-uikit.min.js" id="bdt-uikit-js"></script>
+<script  async src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<!-- <script async  src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script> -->
+<!-- <script  async src="js/waypoints.min.js" id="elementor-waypoints-js"></script> -->
+<!-- <script  async src="js/core.min.js" id="jquery-ui-core-js"></script> -->
+<!-- <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
   "environmentMode": {
     "edit": false,
@@ -238,33 +237,33 @@ var elementorFrontendConfig = {
     "featuredImage": false
   }
 };
-</script>
-<script src="js/frontend.min_1.js" id="elementor-frontend-js"></script>
-<script src="js/ep-sound-effects.min.js" id="ep-sound-effects-js"></script>
-<script src="js/popper.min.js" id="popper-js"></script>
-<script src="js/tippy.all.min.js" id="tippyjs-js"></script>
-<script src="js/ep-helpdesk.min.js" id="ep-helpdesk-js"></script>
-<script src="js/ep-advanced-heading.min.js" id="ep-advanced-heading-js"></script>
-<script src="js/ep-tabs.min.js" id="ep-tabs-js"></script>
-<script src="js/ep-accordion.min.js" id="ep-accordion-js"></script>
-<script src="js/imagesloaded.min.js" id="imagesloaded-js"></script>
-<script src="js/jquery.justifiedGallery.min.js" id="ep-justified-gallery-js"></script>
-<script src="js/vanilla-tilt.min.js" id="tilt-js"></script>
-<script src="js/ep-advanced-image-gallery.min.js" id="ep-advanced-image-gallery-js"></script>
-<script src="js/ep-custom-carousel.min.js" id="ep-custom-carousel-js"></script>
-<script src="js/ep-marker.min.js" id="ep-marker-js"></script>
-<script src="js/helper.min.js" id="element-pack-helper-js"></script>
-<script src="js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
-<script src="js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
-<script src="js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
-<script src="js/hooks.min.js" id="wp-hooks-js"></script>
-<script src="js/i18n.min.js" id="wp-i18n-js"></script>
-<script id="wp-i18n-js-after">
+</script> -->
+<script async  src="js/frontend.min_1.js" id="elementor-frontend-js"></script>
+<!-- <script async  src="js/ep-sound-effects.min.js" id="ep-sound-effects-js"></script> -->
+<script async  src="js/popper.min.js" id="popper-js"></script>
+<script async  src="js/tippy.all.min.js" id="tippyjs-js"></script>
+<!-- <script async  src="js/ep-helpdesk.min.js" id="ep-helpdesk-js"></script> -->
+<!-- <script async  src="js/ep-advanced-heading.min.js" id="ep-advanced-heading-js"></script> -->
+<!-- <script async  src="js/ep-tabs.min.js" id="ep-tabs-js"></script> -->
+<!-- <script async  src="js/ep-accordion.min.js" id="ep-accordion-js"></script> -->
+<script async  src="js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script async  src="js/jquery.justifiedGallery.min.js" id="ep-justified-gallery-js"></script>
+<script async  src="js/vanilla-tilt.min.js" id="tilt-js"></script>
+<!-- <script async  src="js/ep-advanced-image-gallery.min.js" id="ep-advanced-image-gallery-js"></script> -->
+<!-- <script async  src="js/ep-custom-carousel.min.js" id="ep-custom-carousel-js"></script> -->
+<!-- <script async  src="js/ep-marker.min.js" id="ep-marker-js"></script> -->
+<!-- <script async  src="js/helper.min.js" id="element-pack-helper-js"></script> -->
+<script async  src="js/webpack-pro.runtime.min.js" id="elementor-pro-webpack-runtime-js"></script>
+<script async  src="js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script async  src="js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script async  src="js/hooks.min.js" id="wp-hooks-js"></script>
+<script async  src="js/i18n.min.js" id="wp-i18n-js"></script>
+<!-- <script async  id="wp-i18n-js-after">
 wp.i18n.setLocaleData({
   'text direction\u0004ltr': ['ltr']
 });
-</script>
-<script id="elementor-pro-frontend-js-before">
+</script> -->
+<!-- <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {
   "ajaxurl": "https:\/\/shemetova.studio\/wp-admin\/admin-ajax.php",
   "nonce": "e0a63505cc",
@@ -345,9 +344,9 @@ var ElementorProFrontendConfig = {
     "defaultAnimationUrl": "http:\/\/shemetova.studio\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
   }
 };
-</script>
-<script src="js/frontend.min.js" id="elementor-pro-frontend-js"></script>
-<script src="js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
+</script> -->
+<!-- <script async src="js/frontend.min.js" id="elementor-pro-frontend-js"></script> -->
+<script  async src="js/elements-handlers.min.js" id="pro-elements-handlers-js"></script>
 <script>
 ! function() {
   var t = !1;
@@ -371,4 +370,3 @@ var ElementorProFrontendConfig = {
   }
 }(EventTarget.prototype.addEventListener);
 </script>
-</div>
