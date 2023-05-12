@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container_main">
   <section class="why-we_section" title="Наші переваги">
 
     <div class="elementor-element elementor-element-8a7bdbd elementor-widget elementor-widget-bdt-advanced-heading"
       data-id="8a7bdbd" data-element_type="widget" data-widget_type="bdt-advanced-heading.default">
       <div class="elementor-widget-container">
-        <div id="8a7bdbd" class="bdt-ep-advanced-heading" data-settings="{&quot;titleMultiColor&quot;:&quot;no&quot;}">
+        <div  class="bdt-ep-advanced-heading" data-settings="{&quot;titleMultiColor&quot;:&quot;no&quot;}">
           <div class="bdt-ep-advanced-heading-content bdt-visible@m">
             <div class="bdt-transform-origin-top-left">Shemetova Studio</div>
           </div>
